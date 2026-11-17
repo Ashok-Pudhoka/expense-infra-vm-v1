@@ -5,11 +5,11 @@
 #   frontend.<domain>, backend.<domain>,
 #   mysql.<domain>                           -> private IPs (VM-to-VM traffic)
 # Change this if the course domain is a different zone.
-domain_name = "daws90s.shop"
+domain_name = "ashokpaiops.online"
 
 # Your public IP, /32. Re-check if your IP changes:
 #   curl -s https://checkip.amazonaws.com
-admin_cidr = "5.31.189.46/32"
+admin_cidr = "223.187.72.170/32"
 
 # Extra CIDRs that may scrape the exporter ports (admin_cidr and the VPC are
 # always allowed). E.g. a Prometheus server outside this VPC: ["198.51.100.7/32"]
